@@ -1,0 +1,22 @@
+
+                   # To reach out to Rahul for help: mentor@rahulshettyacademy.com
+# Any pytest file should always start with => test_
+# pytest method names should start with test_ e.g def test_firstProgram():
+# Any code should be wrapped in method only
+# keyword to run pytest is: py.test
+# Running all pytest from command line: C:\Users\olatu\PycharmProjects1\PythonProject1\PyTest>py.test -v -s
+# -k stands for specific  method tag in pytest is return in cmd as -k addition
+# -v stands for generating log in pytest
+# -s stands for getting more info in pytest
+# -m (mark) is used for test tagging like => smoke, regression , e2e in cmd as - m smoke
+# @pytest.mark.smoke is used to run smoke test
+# @pytest.mark.regression is used to run regression test
+# @pytest.mark.skip is used to skip particular test(s) in pytest
+# @pytest.mark.xfail is used to skip reporting failed test in particular test(s) in pytest
+# @pytest.fixture is used to perform the setup eg browser setup
+# yield is used as method for tearDown eg close browser
+# conftest is used to warehouse methods, data and browsers that are been used across other test -> like configfile in java
+# When you define fixture scope to class only, it will run once before class initiated and after all class method finished.
+# To generate html report for executed tests, use: py.test --html=report.html -v -s from the command line, the html report will be created in the test.
+# To execute test with multiBrowser from cmd, use: py.test --browser_name firefox -v -s
+# Creating Logs: Debug, info, warning, error, critical, time stamp etc
